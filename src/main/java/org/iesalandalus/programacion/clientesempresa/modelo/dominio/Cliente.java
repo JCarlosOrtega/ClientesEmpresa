@@ -10,4 +10,64 @@ public class Cliente {
 	private LocalDate fechaNacimiento;
 	
 	
+	private String formateaNombre (String nombre) {
+		return nombre;
+		
+	}
+	private boolean comprobarLetraDni (String nombre) {
+		return false;
+		
+	}
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	public String getCorreo() {
+		return correo;
+	}
+	public void setCorreo(String correo) {
+		this.correo = correo;
+	}
+	public String getTelefono() {
+		return telefono;
+	}
+	public void setTelefono(String telefono) {
+		this.telefono = telefono;
+	}
+	public LocalDate getFechaNacimiento() {
+		return fechaNacimiento;
+	}
+	public void setFechaNacimiento(LocalDate fechaNacimiento) {
+		this.fechaNacimiento = fechaNacimiento;
+	}
+	public String getDni() {
+		return dni;
+	}
+	private void setDni(String dni) {
+		this.dni = dni;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
