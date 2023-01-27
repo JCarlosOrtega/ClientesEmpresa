@@ -6,10 +6,6 @@ import java.util.Objects;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import javax.naming.OperationNotSupportedException;
-
-import org.apache.commons.math3.exception.NullArgumentException;
-
 public class Cliente {
 
 	private static final String ER_CORREO = "^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$", ER_DNI = "([0-9]{8})([a-zA-Z])",
